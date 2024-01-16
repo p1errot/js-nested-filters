@@ -2,5 +2,10 @@
   "name": "nested-filters",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {}
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
 }
