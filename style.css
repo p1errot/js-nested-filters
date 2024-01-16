@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Lato;
+  padding: 10px;
+}
+
+.title {
+  font-variant: small-caps;
+}
+
+.subtitle {
+  font-variant: small-caps;
+  line-height: 0.5;
+}
+
+.information {
+  padding: 30px 0;
+}
+
+.information__title {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.filter-title {
+  padding-top: 20px;
+}
+
+.items-wrapper {
+  border: 1px dashed #555;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: #e0e5f8;
+}
+
+.items-wrapper .items-wrapper {
+  background: #e0f8eb;
+}
+
+.item {
+  padding: 5px 10px;
+  background: #e0e0e0;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin: 5px 0;
+}

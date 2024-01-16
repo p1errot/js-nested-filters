@@ -1,0 +1,78 @@
+{
+  "oneFilter": {
+    "column": {
+      "name": "Population",
+      "type": "number"
+    },
+    "operand": ">",
+    "value": "5000000"
+  },
+  "filtersOneLevel": {
+    "and": [
+      {
+        "column": {
+          "name": "Population",
+          "type": "number"
+        },
+        "operand": ">",
+        "value": "5000000"
+      },
+      {
+        "column": {
+          "name": "Name",
+          "type": "string"
+        },
+        "operand": "like",
+        "value": "bar"
+      },
+      {
+        "column": {
+          "name": "DrivingRight",
+          "type": "boolean"
+        },
+        "operand": "=",
+        "value": "true"
+      }
+    ]
+  },
+  "filtersMultipleLevel": {
+    "or": [
+      {
+        "column": {
+          "name": "Population",
+          "type": "number"
+        },
+        "operand": ">",
+        "value": "5000000"
+      },
+      {
+        "and": [
+          {
+            "column": {
+              "name": "Name",
+              "type": "string"
+            },
+            "operand": "like",
+            "value": "a"
+          },
+          {
+            "column": {
+              "name": "Name",
+              "type": "string"
+            },
+            "operand": "like",
+            "value": "b"
+          }
+        ]
+      },
+      {
+        "column": {
+          "name": "DrivingRight",
+          "type": "boolean"
+        },
+        "operand": "=",
+        "value": "true"
+      }
+    ]
+  }
+}
