@@ -1,5 +1,5 @@
-import createFilters from './utils/createFilters.js';
-import createTitle from './utils/createTitle.js';
+import createFilters from '/utils/createFilters.js';
+import createTitle from '/utils/createTitle.js';
 import config from './config.json';
 import './style.css';
 
